@@ -2,7 +2,7 @@ def decimal_to_binary():
     print('decimal_to_binary')
 
 def binary_to_decimal():
-    print('binary_to_decimal')
+     print('binary_to_decimal')
 
 print('''Please select an operation:
 1) Decimal to binary
