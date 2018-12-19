@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+'''
+Program which asks the user whether they want to convert from decimal to binary,
+or binary to decimal. The program then prompts the user to enter either a decimal
+integer or a binary string depending on their previous selection. The program then
+converts the input to either binary or decimal, depending on the selection.
+'''
+
 def decimal_to_binary():
     decimal = int(input('Please enter a positive integer: '))
     arr = []
@@ -9,12 +16,14 @@ def decimal_to_binary():
     binary_string = [str(x) for x in arr[::-1]]
     print(''.join(binary_string))
 
+
 def binary_to_decimal():
-    print('binary_to_decimal')
-    binary = int(input('Please enter a binary number (no spaces or commas): '))
-    arr = [int(x) for x in binary]
-    for x in binary:
-        total = binary[x] * 2 + binary[x]
+    binary_list = list(input('Please enter a binary number (no spaces or commas): '))
+    total = 0
+    for x in binary_list:
+        total = total * 2 + int(x)
+    print(total)
+
 
 print('''Please select an operation:
 1) Decimal to binary
