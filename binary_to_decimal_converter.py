@@ -38,4 +38,4 @@ while True:
         binary_to_decimal()
         break
     else:
-        print("Invalid selection. You must select either '1' or '2'. Try again...\n")
+         print("Invalid selection. You must select either '1' or '2'. Try again...\n")
