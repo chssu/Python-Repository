@@ -1,5 +1,11 @@
 def decimal_to_binary():
-    print('decimal_to_binary')
+    decimal = int(input('Please enter a positive integer: '))
+    arr = []
+    while decimal > 0:
+        arr.append(decimal % 2)
+        decimal = int(decimal/2)
+    binary_string = [str(x) for x in arr[::-1]]
+    print(''.join(binary_string))
 
 def binary_to_decimal():
     print('binary_to_decimal')
