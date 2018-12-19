@@ -11,6 +11,10 @@ def decimal_to_binary():
 
 def binary_to_decimal():
     print('binary_to_decimal')
+    binary = int(input('Please enter a binary number (no spaces or commas): '))
+    arr = [int(x) for x in binary]
+    for x in binary:
+        total = binary[x] * 2 + binary[x]
 
 print('''Please select an operation:
 1) Decimal to binary
