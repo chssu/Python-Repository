@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def decimal_to_binary():
     decimal = int(input('Please enter a positive integer: '))
     arr = []
