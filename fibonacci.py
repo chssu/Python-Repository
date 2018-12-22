@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-'''
+"""
 This program takes an input, N, from the user in the form of an integer.
 The program then prints the fibonacci sequence to the Nth term 
 (with 0 being the first term).
-'''
+"""
 
 from math import sqrt
 
