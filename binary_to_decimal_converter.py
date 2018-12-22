@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-'''
+"""
 Program which asks the user whether they want to convert from decimal to binary,
 or binary to decimal. The program then prompts the user to enter either a decimal
 integer or a binary string depending on their previous selection. The program then
 converts the input to either binary or decimal, depending on the selection.
-'''
+"""
 
 def decimal_to_binary():
     decimal = int(input('Please enter a positive integer: '))
